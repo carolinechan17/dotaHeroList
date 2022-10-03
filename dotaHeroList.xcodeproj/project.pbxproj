@@ -19,6 +19,7 @@
 		E6EE566828EB17FA00A8C5EF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566728EB17FA00A8C5EF /* NetworkError.swift */; };
 		E6EE566A28EB181700A8C5EF /* NetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566928EB181700A8C5EF /* NetworkFactory.swift */; };
 		E6EE566F28EB188400A8C5EF /* DotaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566E28EB188400A8C5EF /* DotaModel.swift */; };
+		E6EE567828EB224A00A8C5EF /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE567728EB224A00A8C5EF /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E6EE566728EB17FA00A8C5EF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		E6EE566928EB181700A8C5EF /* NetworkFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFactory.swift; sourceTree = "<group>"; };
 		E6EE566E28EB188400A8C5EF /* DotaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaModel.swift; sourceTree = "<group>"; };
+		E6EE567728EB224A00A8C5EF /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E6EE563528EB16BC00A8C5EF /* dotaHeroList */ = {
 			isa = PBXGroup;
 			children = (
+				E6EE567628EB223900A8C5EF /* UserDefaults */,
 				E6EE566028EB175800A8C5EF /* Domainless */,
 				E6EE563628EB16BC00A8C5EF /* dotaHeroListApp.swift */,
 				E6EE563828EB16BC00A8C5EF /* ContentView.swift */,
@@ -172,6 +175,14 @@
 				E6EE566E28EB188400A8C5EF /* DotaModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E6EE567628EB223900A8C5EF /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE567728EB224A00A8C5EF /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +319,7 @@
 				E6EE563728EB16BC00A8C5EF /* dotaHeroListApp.swift in Sources */,
 				E6EE566228EB178F00A8C5EF /* DotaServices.swift in Sources */,
 				E6EE566A28EB181700A8C5EF /* NetworkFactory.swift in Sources */,
+				E6EE567828EB224A00A8C5EF /* UserDefaults.swift in Sources */,
 				E6EE566628EB17D200A8C5EF /* Networker.swift in Sources */,
 				E6EE566F28EB188400A8C5EF /* DotaModel.swift in Sources */,
 				E6EE566828EB17FA00A8C5EF /* NetworkError.swift in Sources */,
