@@ -84,7 +84,6 @@
 		E6EE562A28EB16BC00A8C5EF = {
 			isa = PBXGroup;
 			children = (
-				E6EE566028EB175800A8C5EF /* Domainless */,
 				E6EE563528EB16BC00A8C5EF /* dotaHeroList */,
 				E6EE564628EB16BD00A8C5EF /* dotaHeroListTests */,
 				E6EE565028EB16BD00A8C5EF /* dotaHeroListUITests */,
@@ -105,6 +104,7 @@
 		E6EE563528EB16BC00A8C5EF /* dotaHeroList */ = {
 			isa = PBXGroup;
 			children = (
+				E6EE566028EB175800A8C5EF /* Domainless */,
 				E6EE563628EB16BC00A8C5EF /* dotaHeroListApp.swift */,
 				E6EE563828EB16BC00A8C5EF /* ContentView.swift */,
 				E6EE563A28EB16BD00A8C5EF /* Assets.xcassets */,
