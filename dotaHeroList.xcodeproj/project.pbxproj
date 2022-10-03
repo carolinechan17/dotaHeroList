@@ -14,6 +14,11 @@
 		E6EE564828EB16BD00A8C5EF /* dotaHeroListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE564728EB16BD00A8C5EF /* dotaHeroListTests.swift */; };
 		E6EE565228EB16BD00A8C5EF /* dotaHeroListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE565128EB16BD00A8C5EF /* dotaHeroListUITests.swift */; };
 		E6EE565428EB16BD00A8C5EF /* dotaHeroListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE565328EB16BD00A8C5EF /* dotaHeroListUITestsLaunchTests.swift */; };
+		E6EE566228EB178F00A8C5EF /* DotaServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566128EB178F00A8C5EF /* DotaServices.swift */; };
+		E6EE566628EB17D200A8C5EF /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566528EB17D200A8C5EF /* Networker.swift */; };
+		E6EE566828EB17FA00A8C5EF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566728EB17FA00A8C5EF /* NetworkError.swift */; };
+		E6EE566A28EB181700A8C5EF /* NetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566928EB181700A8C5EF /* NetworkFactory.swift */; };
+		E6EE566F28EB188400A8C5EF /* DotaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE566E28EB188400A8C5EF /* DotaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		E6EE564D28EB16BD00A8C5EF /* dotaHeroListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotaHeroListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EE565128EB16BD00A8C5EF /* dotaHeroListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotaHeroListUITests.swift; sourceTree = "<group>"; };
 		E6EE565328EB16BD00A8C5EF /* dotaHeroListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotaHeroListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6EE566128EB178F00A8C5EF /* DotaServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaServices.swift; sourceTree = "<group>"; };
+		E6EE566528EB17D200A8C5EF /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		E6EE566728EB17FA00A8C5EF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E6EE566928EB181700A8C5EF /* NetworkFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFactory.swift; sourceTree = "<group>"; };
+		E6EE566E28EB188400A8C5EF /* DotaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		E6EE562A28EB16BC00A8C5EF = {
 			isa = PBXGroup;
 			children = (
+				E6EE566028EB175800A8C5EF /* Domainless */,
 				E6EE563528EB16BC00A8C5EF /* dotaHeroList */,
 				E6EE564628EB16BD00A8C5EF /* dotaHeroListTests */,
 				E6EE565028EB16BD00A8C5EF /* dotaHeroListUITests */,
@@ -125,6 +136,42 @@
 				E6EE565328EB16BD00A8C5EF /* dotaHeroListUITestsLaunchTests.swift */,
 			);
 			path = dotaHeroListUITests;
+			sourceTree = "<group>";
+		};
+		E6EE566028EB175800A8C5EF /* Domainless */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE566B28EB186600A8C5EF /* Model */,
+				E6EE566428EB17BF00A8C5EF /* Networking */,
+				E6EE566328EB17B600A8C5EF /* Services */,
+			);
+			path = Domainless;
+			sourceTree = "<group>";
+		};
+		E6EE566328EB17B600A8C5EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE566128EB178F00A8C5EF /* DotaServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E6EE566428EB17BF00A8C5EF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE566528EB17D200A8C5EF /* Networker.swift */,
+				E6EE566728EB17FA00A8C5EF /* NetworkError.swift */,
+				E6EE566928EB181700A8C5EF /* NetworkFactory.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E6EE566B28EB186600A8C5EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE566E28EB188400A8C5EF /* DotaModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +306,11 @@
 			files = (
 				E6EE563928EB16BC00A8C5EF /* ContentView.swift in Sources */,
 				E6EE563728EB16BC00A8C5EF /* dotaHeroListApp.swift in Sources */,
+				E6EE566228EB178F00A8C5EF /* DotaServices.swift in Sources */,
+				E6EE566A28EB181700A8C5EF /* NetworkFactory.swift in Sources */,
+				E6EE566628EB17D200A8C5EF /* Networker.swift in Sources */,
+				E6EE566F28EB188400A8C5EF /* DotaModel.swift in Sources */,
+				E6EE566828EB17FA00A8C5EF /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
